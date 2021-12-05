@@ -116,9 +116,10 @@ juste après la boucle répéter. Tester votre programme avec le simulateur.
 6.Vous pouvez télécharger ce dernier programme dans 
 votre session. On le testera plus tard sur la carte.
 
-UNE FOIS TERMINE CET EXERCICE, CLIQUER SUR "TER".
+UNE FOIS TERMINE CET EXERCICE, CLIQUER SUR "EXIT TUTORIAL".
 VOUS ETES SORTI DU TUTORIEL ET VOUS POUVEZ REALISER
-EN AUTONOMIE LE 4ème EXERCICE (voir indice sur le doc Word)
+EN AUTONOMIE LE 4ème EXERCICE (voir indice sur le doc Word).
+
 
 
 ```blocks
