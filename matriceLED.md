@@ -3,32 +3,31 @@ La carte micro:bit possède une matriceLED
 de 25 leds indépendantes.
 On peut afficher du texte, des nombres, des images.
 
-## EXO1: Afficher smiley pendant 1s puis un autre pendant 2s
+## EXO1: Afficher smiley pendant 3s puis un autre pendant 3s
 
-Afficher un smiley souriant pendant 1s, puis
-un smiley "pas souriant" pendant 2s.
+Afficher un smiley souriant pendant 3s, puis
+un smiley "pas souriant" pendant 3s.
 
 1.Pour cela choisir le bloc "montrer l'icône" et choisir
 le smiley qui sourit, puis glisser dessous un bloc
-"pause" que vous mettrez à 1s.
+"pause" que vous mettrez à 3s (3000ms).
 
 
 2.Puis vous rajoutez un bloc "montrer l'icône" en 
 choisissant cette fois un smiley qui ne sourit pas
 et enfin en rajoutant dessous un bloc "pause"
-que vous mettrez à 2s.
+que vous mettrez à 3s. Rajouter un bloc "Effacer l'écran.
 
 Il n'y a plus qu'à essayer avec le simulateur 
-à gauche de l'écran !
+
 
 
 ```blocks
-basic.forever(function () {
-    basic.showIcon(IconNames.Happy)
-    basic.pause(1000)
-    basic.showIcon(IconNames.Sad)
-    basic.pause(2000)
-})
+basic.showIcon(IconNames.Happy)
+basic.pause(3000)
+basic.showIcon(IconNames.Sad)
+basic.pause(3000)
+basic.clearScreen()
 ```
 
 
