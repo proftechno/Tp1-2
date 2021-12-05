@@ -8,7 +8,8 @@ On peut afficher du texte, des nombres, des images.
 Afficher un smiley souriant pendant 3s, puis
 un smiley "pas souriant" pendant 3s.
 
-1.Pour cela choisir le bloc "montrer l'icône" et choisir
+1.Vous allez utiliser le bloc "au démarrage"
+Choisir le bloc "montrer l'icône" dans le menu base et choisir
 le smiley qui sourit, puis glisser dessous un bloc
 "pause" que vous mettrez à 3s (3000ms).
 
@@ -37,10 +38,10 @@ Si on appuie sur le bouton A.
 Afficher la série de Leds à droite (en colonne) de la matrice
 pendant 2s, puis la série de Leds à gauche (en colonne) pendant
 2s. Et effacer l'écran.
-VOUS POUVEZ GARDER LE PROGRAMME PRECEDENT EN RAJOUTANT LES blocks
-DESSOUS.
+VOUS POUVEZ GARDER LE PROGRAMME PRECEDENT 
 
-1.Faire glisser un bloc du menu logique "Si ...vrai".
+1.Dans le bloc Toujours,Faire glisser un bloc du menu
+logique "Si ...vrai".
 Remplacer le "vrai" en glissant dedans la condition "A appuyé"
 pris dans le menu "Entrée".
 
@@ -54,17 +55,8 @@ en colonne de la série de leds à DROITE de la matriceLED.
 pour la colonne à gauche cette fois. Rajouter une pause à 2s.
 Et pour finir rajouter un bloc "effacer l'écran".
 
-
-## Téléchargement de vos 2 premiers exercices.
-TELECHARGER VOTRE PROGRAMME AVEC L'ICONE "Téléchargement".
-LE RECUPERER DANS TELECHARGEMENT ET LE STOCKER DANS VOTRE SESSION.
-
-Nous les utiliserons plus tard sur la carte, pour faire des essais 
-hors simulation.
-Une fois terminé le téléchargement, passer à l'exercice suivant !
-
-
 ```blocks
+basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         basic.showLeds(`
             . . . . #
@@ -85,17 +77,20 @@ Une fois terminé le téléchargement, passer à l'exercice suivant !
         basic.clearScreen()
     }
 })
-
 ```
+
+
+## Téléchargement de vos 2 premiers exercices.
+TELECHARGER VOTRE PROGRAMME AVEC L'ICONE "Téléchargement".
+LE RECUPERER DANS TELECHARGEMENT ET LE STOCKER DANS VOTRE SESSION.
+
+Nous les utiliserons plus tard sur la carte, pour faire des essais 
+hors simulation.
+Une fois terminé le téléchargement, passer à l'exercice suivant !
 
 
 
 ## EXO3: Faire clignoter des Leds avec une condition
-
-POUR CET EXERCICE, IL FAUT EFFACER TOUS LES BLOCS PRECEDENTS !
-AVANT, ASSURER VOUS BIEN D'AVOIR TELECHARGER LES PROGRAMMES
-DES EXERCICES 1 et 2.
-
 
 Lorsque le bouton poussoir B est pressé, faire clignoter
 la chiffre 8 affiché avec les leds 8 fois, puis éteindre.
