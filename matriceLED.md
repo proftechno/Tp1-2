@@ -107,10 +107,11 @@ la chiffre 8 affiché avec les leds 8 fois, puis éteindre.
 3.Choisir dans le menu "Base" le bloc Montrer nombre, le glisser
 sous le bloc répéter 8 fois et changer le nombre par un 8.
 
-4.Rajouter un bloc "pause" à 200ms, puis enfin un bloc
-"Effacer l'écran".
+4.Rajouter un bloc "pause" à 200ms, puis un bloc
+"Montrer LEDs" sans leds affichées.
 
-5.Tester votre programme avec le simulateur.
+5. Pour finir, rajouter un bloc "effacer écran"
+juste après la boucle répéter. Tester votre programme avec le simulateur.
 
 6.Vous pouvez télécharger ce dernier programme dans 
 votre session. On le testera plus tard sur la carte.
@@ -125,7 +126,14 @@ input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 8; index++) {
         basic.showNumber(8)
         basic.pause(200)
-        basic.clearScreen()
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
     }
+    basic.clearScreen()
 })
 ```
