@@ -115,6 +115,10 @@ sous le bloc répéter 8 fois et changer le nombre par un 8.
 6.Vous pouvez télécharger ce dernier programme dans 
 votre session. On le testera plus tard sur la carte.
 
+UNE FOIS TERMINE CET EXERCICE, CLIQUER SUR "TER".
+VOUS ETES SORTI DU TUTORIEL ET VOUS POUVEZ REALISER
+EN AUTONOMIE LE 4ème EXERCICE (voir indice sur le doc Word)
+
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
