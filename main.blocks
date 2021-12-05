@@ -1,13 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="3K(4R{rbLOc1e(CD93V-" x="38" y="7"><statement name="HANDLER"><block type="basic_show_icon" id="*M`Ou.,-xm4G+?;Vp=*o"><field name="i">IconNames.Happy</field><next><block type="device_pause" id="},xho%SgHb1Ze|*35)b2"><value name="pause"><shadow type="timePicker" id="%sV0;@^Ug|/[|poXfT;m"><field name="ms">3000</field></shadow></value><next><block type="basic_show_icon" id="lm7Yyd}@aj2D2l}iGl51"><field name="i">IconNames.Sad</field><next><block type="device_pause" id="CA+{8ca_fe(QNi*S8,LD"><value name="pause"><shadow type="timePicker" id="xqF(d`%c(Y4a0/jkQ9]="><field name="ms">3000</field></shadow></value><next><block type="device_clear_display" id=":_eFO-b$F^)uzPCGo4i;"/></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="et]U0~C}xlcy=X20P6`e" x="363" y="16"><statement name="HANDLER"><block type="controls_if" id="l{z6WDlszB!45xy2*v9V"><value name="IF0"><shadow type="logic_boolean" id=",G/]cZE%X$7#bNyAW,Hr"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="h-3Rjs*Y(u5V-7Mx;APE"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="}|+i*izI8QywY3*a+^@4"><field name="LEDS">`
-        . . . . # 
-        . . . . # 
-        . . . . # 
-        . . . . # 
-        . . . . #
-        `</field><next><block type="device_pause" id="7bx@Ld=4}aQ0qB:h9nTS"><value name="pause"><shadow type="timePicker" id="f992S$4!E`yJ,nsres*g"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id=":o4tLf`d:)_Em:`4qSdh"><field name="LEDS">`
-        # . . . . 
-        # . . . . 
-        # . . . . 
-        # . . . . 
-        # . . . .
-        `</field><next><block type="device_pause" id="c*Q`$SX1-YJhEC8u=K2k"><value name="pause"><shadow type="timePicker" id="rOfYCuVOa)84hVNztW4,"><field name="ms">2000</field></shadow></value><next><block type="device_clear_display" id="_jC1}}Ypa}xu1.pepXz-"/></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="3K(4R{rbLOc1e(CD93V-" x="0" y="0"/><block type="device_forever" id="et]U0~C}xlcy=X20P6`e" x="325" y="9"/></xml>
